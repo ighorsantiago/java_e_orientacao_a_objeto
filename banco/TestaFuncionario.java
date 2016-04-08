@@ -51,11 +51,9 @@ public class TestaFuncionario {
 		
 		/*
 		if(funcionario4 == funcionario5) {
-
 			System.out.println("Iguais...");
 		}
 		else {
-
 			System.out.println("Diferentes...");
 		}*/
 	}

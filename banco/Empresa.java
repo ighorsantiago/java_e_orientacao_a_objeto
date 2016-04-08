@@ -2,12 +2,14 @@ public class Empresa {
 
 	String nome;
 	String cnpj;
-	Funcionario[] empregados;
+	Funcionario[] empregados = new Funcionario[10];
 
 	void adicionaFuncionario(Funcionario f){
 		for(int i = 0; i < empregados.length; i++) {
 			if(empregados[i] == null) {
 				this.empregados[i] = f;
+				break;
+
 			}
 		}	
 	}
