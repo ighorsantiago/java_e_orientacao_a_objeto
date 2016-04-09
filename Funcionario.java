@@ -63,9 +63,9 @@ public class Funcionario {
 			"RG: " 				+ this.rg			 			+ "\n" + 
 			"Departamento: " 	+ this.departamento				+ "\n" + 
 			"Salario: " 		+ this.salario	 				+ "\n" +
-			"Data de entrada: " + this.dataDeEntrada.getDia()	+ "/"
-								+ this.dataDeEntrada.getMes()	+ "/"
-								+ this.dataDeEntrada.getAno()	+ "\n"
+			"Data de entrada: " + this.dataDeEntrada.getDia()	//+ "/"
+//								+ this.dataDeEntrada.getMes()	+ "/"
+//								+ this.dataDeEntrada.getAno()	+ "\n"
 		);
 		
 		System.out.println("Ganho Anual do " + this.nome + ": " + this.calculaGanhoAnual() + "\n");
